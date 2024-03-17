@@ -1,0 +1,44 @@
+repo_name: LaggAt/nocode
+report_id: 8e1ac373080911d65b9f81ae516880af
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-17T13:49:19+00:00'
+requested_by: kelseyhightower
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: ScratchDB
+  description: Open source Snowflake on ClickHouse
+  website_url: https://www.scratchdb.com/
+  license: AGPL-3.0
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Big Data Tools
+  image_url: https://img.stackshare.io/service/104997/default_64f16b2ca9869cd997fc48770dfb2fbf268a56d1.png
+  detection_source_url: https://github.com/LaggAt/nocode/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Kelsey Hightower
+  last_updated_on: 2018-02-07 01:31:48.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/LaggAt/nocode
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LaggAt/nocode
+  detection_source: Repo Metadata
